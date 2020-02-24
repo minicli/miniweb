@@ -1,0 +1,17 @@
+{
+  "name": "minicli/miniweb",
+  "type": "library",
+  "description": "Web Layer for minicli",
+  "license": "MIT",
+  "homepage": "https://github.com/erikaheidi/minicli",
+  "keywords": ["micro","web","sites"],
+  "autoload": {
+    "psr-4": {
+      "Minicli\\Miniweb\\": "src/"
+    }
+  },
+  "require": {
+    "minicli/minicli": "^1.0",
+    "twig/twig": "^3.0"
+  }
+}
